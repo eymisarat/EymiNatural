@@ -1,0 +1,114 @@
+
+   *{
+    box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   }
+   
+   body{
+       background-color: rgb(196, 164, 233);
+   }
+   
+   header{
+       border: solid 1px;
+       display: flex;
+       justify-content: space-between;/* los separa */
+   background: pink ;
+   align-items: center;
+   padding: 10px;
+
+   /*agregamos position y ancho para fijar el encabezado */
+   position:fixed;/*para que se matenga fija*/
+   top:0;/*para qie se quede arriba */
+   width: 100%;
+    border-radius:100px ;
+
+   }
+
+   #contenedor{
+    margin-top:150px;
+   }
+
+   #seccion-artuculos{
+    width: 80%;
+
+    margin: 20px auto;
+   }
+   
+   #titulo{
+    text-align:center;
+    font-size: 100px;
+   }
+   
+nav .link-nav{
+    padding:20px;
+    font-size: none;
+
+
+font-weight: bold;
+
+}
+
+   nav .link-nav:hover{
+    color:palevioletred;
+    background-color:palevioletred;
+    border-radius:5px ;
+
+}
+   #logo-empresa{
+       /*border:solid 1px;*/
+       height: 120px;
+   
+       display:flex;
+     align-items: center;
+   
+       text-decoration:none;
+       color: black;
+       font-size: 30px;
+   }
+   
+   #logo{
+       height: 100px;
+       width: 100px;
+       margin-right: 20px;
+   }
+   
+   
+   
+   /*Aplicamos estilos a la barra de navegacion */
+   nav .link-nav {
+       padding-right: 15px;
+       font-size: 30px;
+       text-decoration:none;
+       color: black;
+       font-weight:bold;/*aplicar negrita*/
+   }
+   
+   nav .link-nav:hover{
+       color:rgb(12, 12, 12);
+       
+   }
+
+  
+   
+#informacion{
+    list-style: none;
+}
+
+footer div{
+    float:rigth;
+    padding-bottom:10px;
+
+}
+ 
+footer p{
+    margin:0;
+
+}
+
+footer a{
+    text-decoration:none;
+    color:black;
+}
+       
+
